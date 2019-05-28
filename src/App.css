@@ -1,28 +1,96 @@
 .App {
-  text-align: center;
-  font-size: 2.2em;
-  color: darkgray;
+  margin: auto;
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  margin-top: 90px;
+  border: 1px solid gray;
 }
 
-input{
+.space{
   padding: 10px;
-  width: 250px;
 }
 
+.inputicon input{
+  width: 100%;
+  height: 25px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  font-size: 15px;
+}
+.inputicon{
+  display: flex;
+  width: 300px;
+  margin: auto;
+  border-radius: 0.25rem;
+  margin-bottom: 15px;
+}
+.inputicon .login-icon{
+  padding: 13px 5px 10px 5px;
+  background: #e9ecef;
+  color: #495057;
+  min-width: 40px;
+  text-align: center;
+  border: 1px solid #ced4da;
+  border-right: none;
+}
 .or{
-  font-size: 0.7em;
-  color: black;
+  margin: 20px 73px 10px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.or i{
+  padding: 0 10px;
+  background: #ffffff;
+  position: relative;
+  top: -11px;
+  z-index: 1;
 }
 
 .login{
-  background-color: #52b4da;
-  padding: 10px;
-  width: 275px;
+  background-color: #3490dc;
+  padding: 18px;
+  width: 300px;
+  font-size: 15px;
+  margin-left: 75px;
+  margin-top: 25px;
+  color: #ffffff;
 }
 
 .Login_google{
+  width: 300px;
+  height: 55px;
+  box-shadow: 1px 2px #cccccc;
+  font-size: 15px;
+  border-color: #fbfbfb;
+  text-align: left;
+  margin-left: 75px;
+  background-color: #ffffff;
+  color: gray;
+  align-items: center;
+  display: inline-flex;
+  opacity: 0.6;
+  outline: none;
+}
+
+.Login_google .google{
+  margin-right: 10px;
+  background: rgb(255, 255, 255);
   padding: 10px;
-  width: 275px;
+  border-radius: 2px;
+}
+
+.Login_google span{
+  padding: 10px 10px 10px 0px;
+  font-weight: 500
+}
+
+h3{
+  color: #bfbfbf;
+  font-size: 25px;
+  margin: 45px 0px 50px 0px;
 }
 
 .App-logo {
