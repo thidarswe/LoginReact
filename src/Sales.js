@@ -19,7 +19,7 @@ class Sales extends React.Component {
         </div>
         <div className="column" id="two">
           <p>Invoice date</p>
-          <div><select><option></option><option>A</option><option>B</option></select></div>
+          <div><select><option></option>  <option>A</option><option>B</option></select></div>
         </div>
         <div className="column" id="two">
           <p>Invoice date</p>
