@@ -1,104 +1,103 @@
 .App {
-  margin: auto;
-  width: 450px;
-  height: 500px;
-  background-color: white;
-  margin-top: 90px;
-  border: 1px solid gray;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.space{
+.column{
+  font-size: 13px;
+  float: left;
+  width: 20%;
   padding: 10px;
 }
 
-.inputicon input{
-  width: 100%;
-  height: 25px;
-  outline: none;
+.column_email{
+  float: left;
+  width: 16.9%;
   padding: 10px;
-  border: 1px solid #ced4da;
-  font-size: 15px;
-}
-.inputicon{
-  display: flex;
-  width: 300px;
-  margin: auto;
-  border-radius: 0.25rem;
-  margin-bottom: 15px;
-}
-.inputicon .login-icon{
-  padding: 13px 5px 10px 5px;
-  background: #e9ecef;
-  color: #495057;
-  min-width: 40px;
-  text-align: center;
-  border: 1px solid #ced4da;
-  border-right: none;
-}
-.or{
-  margin: 20px 73px 10px;
-  text-align: center;
-  border-top: 1px solid #ccc;
 }
 
-.or i{
-  padding: 0 10px;
-  background: #ffffff;
-  position: relative;
-  top: -11px;
-  z-index: 1;
-}
-
-.login{
-  background-color: #3490dc;
-  padding: 18px;
-  width: 300px;
-  font-size: 15px;
-  margin-left: 75px;
-  margin-top: 25px;
-  color: #ffffff;
-}
-
-.Login_google{
-  width: 300px;
-  height: 55px;
-  box-shadow: 1px 2px #cccccc;
-  font-size: 15px;
-  border-color: #fbfbfb;
-  text-align: left;
-  margin-left: 75px;
-  background-color: #ffffff;
-  color: gray;
-  align-items: center;
-  display: inline-flex;
-  opacity: 0.6;
-  outline: none;
-}
-
-.Login_google .google{
-  margin-right: 10px;
-  background: rgb(255, 255, 255);
+.column_currency{
+  float: left;
+  width: 7.5%;
   padding: 10px;
+}
+
+.column_person{
+  font-size: 13px;
+  float: left;
+  width: 12%;
+  padding: 10px;
+}
+
+.combo_customer{
+  width: 265px;
+  box-sizing: border-box;
+  height: 36px;
   border-radius: 2px;
+  background-color: #FFF;
+  border: 1px solid #BDC0C7;
+  margin-top: 10px;
 }
 
-.Login_google span{
-  padding: 10px 10px 10px 0px;
-  font-weight: 500
+.combo_currency{
+  margin-top: 10px;
+  height: 36px;
+  width: 76px;
+  background-color: #FFF;
 }
 
-h3{
-  color: #bfbfbf;
-  font-size: 25px;
-  margin: 45px 0px 50px 0px;
+.combo_project{
+  margin-top: 10px;
+  box-sizing: border-box;
+  height: 36px;
+  width: 159px;
+  background-color: #FFF;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.email{
+  margin-top: 10px;
+  height: 36px;
+  width: 222px;
 }
 
+.person{
+  margin-top: 10px;
+  height: 36px;
+  width: 136px;
+}
+
+.column_bill{
+  font-size: 13px;
+  float: left;
+  width: 29%;
+  padding: 10px;
+}
+
+.column_term{
+  font-size: 13px;
+  float: left;
+  width: 17%;
+  padding: 10px;
+}
+
+.column_invoice{
+  font-size: 13px;
+  float: left;
+  width: 10%;
+  padding: 10px;
+}
+
+.column_due{
+  font-size: 13px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -110,8 +109,157 @@ h3{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bill{
+  margin-top: 10px;
+  box-sizing: border-box;
+  height: 100px;
+  width: 371px;
+}
+
+.combo_terms{
+  margin-top: 10px;
+  margin-bottom: 7px;
+  height: 36px;
+  width: 223px;
+  background-color: #FFF;
+}
+
+.date{
+  margin-top: 10px;
+  height: 36px;
+  width: 110px;
+  font-size: 14px;
+}
+
+.subject{
+  margin-top: 7px;
+  box-sizing: border-box;
+  height: 36px;
+  width: 350px;
+}
+
+.fa{
+  height: 28px;
+  width: 13px;
+  color: #828282;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 1.6%;
+  left: 61.4%;
+}
+.column_due .fa{
+  left: 71.9%;
+}
+
+.table_product{
+  font-size: 13px;
+  padding: 10px;
+  border-collapse: collapse;
+  padding: 20px;
+}
+.table_product tr{
+  border-collapse: collapse;
+  height: 40px;
+  border-bottom: 2px solid #f9f9f9;
+}
+.table_product tr:nth-child(even){
+  background-color: #f9f9f9;
+}
+.No{
+  width: 50px;
+  height: 15px;
+}
+.product{
+  width: 151px;
+  height: 15px;
+  text-align: left;
+}
+
+.discription{
+  width: 378px;
+  height: 15px;
+  text-align: left;
+}
+.price{
+  width: 99px;
+  height: 15px;
+  text-align: right;
+}
+
+.qty{
+  width: 83px;
+  height: 15px;
+  text-align: right;
+}
+
+.tax{
+  width: 83px;
+  height: 15px;
+  text-align: right;
+}
+
+.amount{
+  width: 151px;
+  height: 15px;
+  text-align: right;
+}
+
+.td_price{
+  text-align: right;
+}
+
+.td_qty{
+  text-align: right;
+}
+
+.td_amount{
+  text-align: right;
+}
+
+.btn_action{
+  border-radius: 10px;
+  height: 24px;
+  width: 109px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.note{
+  height: 89px;
+  width: 485px;
+  margin-top: 10px;
+}
+
+.column_note{
+  font-size: 13px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.btn_save{
+  float: right;
+  margin-right: 27%;
+  margin-top: 20px;
+  height: 30px;
+  width: 70px;
+  background-color: #53b953;
+  color: #FFF;
+  outline: none;
+}
+
+.table_total tr:last-child td{
+  border-top: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.table_total td{
+  padding: 10px;
+  text-align: right;
+}
+.td_total{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
