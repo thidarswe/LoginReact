@@ -1,0 +1,15 @@
+div{
+  width: 100%;
+}
+form{
+text-align: center;
+}
+input{
+}
+.close{
+  color: #FFF;
+  background-color: red;
+  border: 2px solid #FFF;
+  padding: 10px;
+  border-radius: 50%;
+}
