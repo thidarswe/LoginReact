@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
           </div>
         </div>
         <div className="column_email">
-          Email<br></br>
+          Email<br/>
           <input type="text" className="email" placeholder="Small(1em 13px)"/>
         </div>
         <div className="column_person">
